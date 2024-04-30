@@ -1,0 +1,519 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200719.173005.92255.0.001.json",
+    "dumpEventTime": "2020-07-19T17:30:05Z",
+    "dumpEventTimeStamp": "1595190605284",
+    "processId": 92255,
+    "threadId": null,
+    "cwd": "/home/jefferson/dev/training/rocketseat/GoStack/entregas/gostack-reactJS-concepts",
+    "commandLine": [
+      "/home/jefferson/.nvm/versions/node/v12.16.2/bin/node",
+      "/home/jefferson/dev/training/rocketseat/GoStack/entregas/gostack-reactJS-concepts/node_modules/react-scripts/scripts/test.js",
+      "--watchAll=false",
+      "--watchAll"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.4.0-40-generic",
+    "osVersion": "#44-Ubuntu SMP Tue Jun 23 00:01:04 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 3099,
+        "user": 66721300,
+        "nice": 108400,
+        "sys": 16985000,
+        "idle": 292310800,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 3100,
+        "user": 65311200,
+        "nice": 96100,
+        "sys": 18642200,
+        "idle": 291752500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 3100,
+        "user": 66579400,
+        "nice": 99600,
+        "sys": 17250600,
+        "idle": 293393200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 3100,
+        "user": 66254600,
+        "nice": 125000,
+        "sys": 17072700,
+        "idle": 290965400,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "54:13:79:ef:52:1b",
+        "address": "192.168.1.105",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "br-4a29d5129e01",
+        "internal": false,
+        "mac": "02:42:03:94:36:d6",
+        "address": "172.18.0.1",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "54:13:79:ef:52:1b",
+        "address": "fe80::3bca:fdaa:80ac:ce56",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "br-4a29d5129e01",
+        "internal": false,
+        "mac": "02:42:03:94:36:d6",
+        "address": "fe80::42:3ff:fe94:36d6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "vethc3fbd37",
+        "internal": false,
+        "mac": "3e:1a:9e:b2:1f:6d",
+        "address": "fe80::3c1a:9eff:feb2:1f6d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "vethbf4e7b3",
+        "internal": false,
+        "mac": "fa:cc:5b:6d:80:e4",
+        "address": "fe80::f8cc:5bff:fe6d:80e4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "vethef244a8",
+        "internal": false,
+        "mac": "d6:5b:c0:e5:f5:52",
+        "address": "fe80::d45b:c0ff:fee5:f552",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "vetha4ecb8d",
+        "internal": false,
+        "mac": "5a:f1:fc:13:df:d6",
+        "address": "fe80::58f1:fcff:fe13:dfd6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 15
+      },
+      {
+        "name": "veth6e4f526",
+        "internal": false,
+        "mac": "6e:f7:08:1a:84:0c",
+        "address": "fe80::6cf7:8ff:fe1a:840c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      }
+    ],
+    "host": "bbrands0010"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b40285",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a033ef",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b76ffe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b77379",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d23ad5",
+      "symbol": " [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d24166",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d309e5",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d31895",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d3434c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cfaf1b",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x000000000103d85e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    },
+    {
+      "pc": "0x00000000013c03d9",
+      "symbol": " [/home/jefferson/.nvm/versions/node/v12.16.2/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153496576,
+    "totalCommittedMemory": 2149917968,
+    "usedMemory": 2140580032,
+    "availableMemory": 48654608,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 1097600,
+        "capacity": 2094912,
+        "used": 45888,
+        "available": 2049024
+      },
+      "old_space": {
+        "memorySize": 2096242688,
+        "committedMemory": 2096041944,
+        "capacity": 2092324808,
+        "used": 2092132856,
+        "available": 191952
+      },
+      "code_space": {
+        "memorySize": 2789376,
+        "committedMemory": 2737856,
+        "capacity": 2359104,
+        "used": 2359104,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 5771264,
+        "committedMemory": 5770680,
+        "capacity": 1872480,
+        "used": 1872480,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 44187648,
+        "committedMemory": 44187648,
+        "capacity": 44134112,
+        "used": 44134112,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094912,
+        "used": 0,
+        "available": 2094912
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 751.666,
+    "kernelCpuSeconds": 48.953,
+    "cpuConsumptionPercent": 4.42184,
+    "maxRss": 2333487104,
+    "pageFaults": {
+      "IORequired": 20,
+      "IONotRequired": 3919129
+    },
+    "fsActivity": {
+      "reads": 2672,
+      "writes": 10032
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 532.441,
+    "kernelCpuSeconds": 42.1008,
+    "cpuConsumptionPercent": 3.17321,
+    "fsActivity": {
+      "reads": 2672,
+      "writes": 10032
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "LANGUAGE": "pt_BR:pt:en",
+    "USER": "jefferson",
+    "npm_package_devDependencies__testing_library_jest_dom": "^5.3.0",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.2 linux x64",
+    "npm_package_devDependencies__testing_library_user_event": "^7.1.2",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "3689",
+    "XDG_SESSION_TYPE": "x11",
+    "GIT_ASKPASS": "/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "npm_node_execpath": "/home/jefferson/.nvm/versions/node/v12.16.2/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "2",
+    "LESS": "-R",
+    "QT4_IM_MODULE": "ibus",
+    "HOME": "/home/jefferson",
+    "OLDPWD": "/home/jefferson/dev/training/rocketseat/GoStack/entregas",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "DESKTOP_SESSION": "ubuntu",
+    "NVM_BIN": "/home/jefferson/.nvm/versions/node/v12.16.2/bin",
+    "TERM_PROGRAM_VERSION": "1.47.1",
+    "npm_package_browserslist_production_1": "not dead",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "NVM_INC": "/home/jefferson/.nvm/versions/node/v12.16.2/include/node",
+    "ZSH": "/home/jefferson/.oh-my-zsh",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/terminator.desktop",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_axios_mock_adapter": "^1.18.1",
+    "npm_config_init_license": "MIT",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "GTK_MODULES": "gail:atk-bridge",
+    "PAGER": "less",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "VSCODE_GIT_ASKPASS_MAIN": "/snap/code/37/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "MANAGERPID": "3488",
+    "VSCODE_GIT_ASKPASS_NODE": "/snap/code/37/usr/share/code/code",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "COLORTERM": "truecolor",
+    "TERMINATOR_DBUS_NAME": "net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "88523",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "NVM_DIR": "/home/jefferson/.nvm",
+    "ZPFX": "/home/jefferson/.zinit/polaris",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "IM_CONFIG_PHASE": "1",
+    "GTK_IM_MODULE": "ibus",
+    "LOGNAME": "jefferson",
+    "JOURNAL_STREAM": "9:103110",
+    "_": "/home/jefferson/.nvm/versions/node/v12.16.2/bin/yarn",
+    "npm_package_private": "true",
+    "XDG_SESSION_CLASS": "user",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "USERNAME": "jefferson",
+    "TERM": "xterm-256color",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_config_ignore_scripts": "",
+    "ZSH_CACHE_DIR": "/home/jefferson/.oh-my-zsh/cache",
+    "PMSPEC": "0uUpiPsf",
+    "WINDOWPATH": "2",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "PATH": "/tmp/yarn--1595172498377-0.4666359768367916:/home/jefferson/dev/training/rocketseat/GoStack/entregas/gostack-reactJS-concepts/node_modules/.bin:/home/jefferson/.config/yarn/link/node_modules/.bin:/home/jefferson/.yarn/bin:/home/jefferson/.nvm/versions/node/v12.16.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/jefferson/.nvm/versions/node/v12.16.2/lib/node_modules/npm/bin/node-gyp-bin:/home/jefferson/.nvm/versions/node/v12.16.2/bin/node_modules/npm/bin/node-gyp-bin:/home/jefferson/google-cloud-sdk-288.0.0-linux-x86_64/google-cloud-sdk/bin:/home/jefferson/.zinit/polaris/sbin:/home/jefferson/.zinit/polaris/bin:/home/jefferson/.zinit/polaris/usr/sbin:/home/jefferson/.zinit/polaris/usr/bin:/home/jefferson/google-cloud-sdk-288.0.0-linux-x86_64/google-cloud-sdk/bin:/home/jefferson/.nvm/versions/node/v12.16.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "NODE": "/home/jefferson/.nvm/versions/node/v12.16.2/bin/node",
+    "SESSION_MANAGER": "local/bbrands0010:@/tmp/.ICE-unix/3799,unix/bbrands0010:/tmp/.ICE-unix/3799",
+    "INVOCATION_ID": "1723b259cf4d49ceb76f5c491fe07ae3",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_name": "frontend",
+    "XDG_MENU_PREFIX": "gnome-",
+    "XDG_RUNTIME_DIR": "/run/user/1000/snap.code",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "DISPLAY": ":0",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "TERMINATOR_DBUS_PATH": "/net/tenshu/Terminator2",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "LANG": "pt_BR.UTF-8",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "XMODIFIERS": "@im=ibus",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "LS_COLORS": "no=00:fi=00:di=34:ow=34;40:ln=35:pi=30;44:so=35;44:do=35;44:bd=33;44:cd=37;44:or=05;37;41:mi=05;37;41:ex=01;31:*.cmd=01;31:*.exe=01;31:*.com=01;31:*.bat=01;31:*.reg=01;31:*.app=01;31:*.txt=32:*.org=32:*.md=32:*.mkd=32:*.h=32:*.hpp=32:*.c=32:*.C=32:*.cc=32:*.cpp=32:*.cxx=32:*.objc=32:*.cl=32:*.sh=32:*.bash=32:*.csh=32:*.zsh=32:*.el=32:*.vim=32:*.java=32:*.pl=32:*.pm=32:*.py=32:*.rb=32:*.hs=32:*.php=32:*.htm=32:*.html=32:*.shtml=32:*.erb=32:*.haml=32:*.xml=32:*.rdf=32:*.css=32:*.sass=32:*.scss=32:*.less=32:*.js=32:*.coffee=32:*.man=32:*.0=32:*.1=32:*.2=32:*.3=32:*.4=32:*.5=32:*.6=32:*.7=32:*.8=32:*.9=32:*.l=32:*.n=32:*.p=32:*.pod=32:*.tex=32:*.go=32:*.sql=32:*.csv=32:*.sv=32:*.svh=32:*.v=32:*.vh=32:*.vhd=32:*.bmp=33:*.cgm=33:*.dl=33:*.dvi=33:*.emf=33:*.eps=33:*.gif=33:*.jpeg=33:*.jpg=33:*.JPG=33:*.mng=33:*.pbm=33:*.pcx=33:*.pdf=33:*.pgm=33:*.png=33:*.PNG=33:*.ppm=33:*.pps=33:*.ppsx=33:*.ps=33:*.svg=33:*.svgz=33:*.tga=33:*.tif=33:*.tiff=33:*.xbm=33:*.xcf=33:*.xpm=33:*.xwd=33:*.xwd=33:*.yuv=33:*.nef=33:*.NEF=33:*.aac=33:*.au=33:*.flac=33:*.m4a=33:*.mid=33:*.midi=33:*.mka=33:*.mp3=33:*.mpa=33:*.mpeg=33:*.mpg=33:*.ogg=33:*.opus=33:*.ra=33:*.wav=33:*.anx=33:*.asf=33:*.avi=33:*.axv=33:*.flc=33:*.fli=33:*.flv=33:*.gl=33:*.m2v=33:*.m4v=33:*.mkv=33:*.mov=33:*.MOV=33:*.mp4=33:*.mp4v=33:*.mpeg=33:*.mpg=33:*.nuv=33:*.ogm=33:*.ogv=33:*.ogx=33:*.qt=33:*.rm=33:*.rmvb=33:*.swf=33:*.vob=33:*.webm=33:*.wmv=33:*.doc=31:*.docx=31:*.rtf=31:*.odt=31:*.dot=31:*.dotx=31:*.ott=31:*.xls=31:*.xlsx=31:*.ods=31:*.ots=31:*.ppt=31:*.pptx=31:*.odp=31:*.otp=31:*.fla=31:*.psd=31:*.7z=1;35:*.apk=1;35:*.arj=1;35:*.bin=1;35:*.bz=1;35:*.bz2=1;35:*.cab=1;35:*.deb=1;35:*.dmg=1;35:*.gem=1;35:*.gz=1;35:*.iso=1;35:*.jar=1;35:*.msi=1;35:*.rar=1;35:*.rpm=1;35:*.tar=1;35:*.tbz=1;35:*.tbz2=1;35:*.tgz=1;35:*.tx=1;35:*.war=1;35:*.xpi=1;35:*.xz=1;35:*.z=1;35:*.Z=1;35:*.zip=1;35:*.ANSI-30-black=30:*.ANSI-01;30-brblack=01;30:*.ANSI-31-red=31:*.ANSI-01;31-brred=01;31:*.ANSI-32-green=32:*.ANSI-01;32-brgreen=01;32:*.ANSI-33-yellow=33:*.ANSI-01;33-bryellow=01;33:*.ANSI-34-blue=34:*.ANSI-01;34-brblue=01;34:*.ANSI-35-magenta=35:*.ANSI-01;35-brmagenta=01;35:*.ANSI-36-cyan=36:*.ANSI-01;36-brcyan=01;36:*.ANSI-37-white=37:*.ANSI-01;37-brwhite=01;37:*.log=01;32:*~=01;32:*#=01;32:*.bak=01;33:*.BAK=01;33:*.old=01;33:*.OLD=01;33:*.org_archive=01;33:*.off=01;33:*.OFF=01;33:*.dist=01;33:*.DIST=01;33:*.orig=01;33:*.ORIG=01;33:*.swp=01;33:*.swo=01;33:*,v=01;33:*.gpg=34:*.gpg=34:*.pgp=34:*.asc=34:*.3des=34:*.aes=34:*.enc=34:*.sqlite=34:",
+    "TERM_PROGRAM": "vscode",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/snap.code/vscode-git-b2535740cf.sock",
+    "npm_lifecycle_script": "react-scripts test --watchAll=false",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "GSETTINGS_SCHEMA_DIR": "/snap/code/37/usr/share/glib-2.0/schemas",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "npm_package_scripts_test": "react-scripts test --watchAll=false",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/usr/bin/zsh",
+    "TERMINATOR_UUID": "urn:uuid:3a66deb5-8f56-46fd-ac34-d6340e8fd6b7",
+    "DISABLE_WAYLAND": "1",
+    "npm_lifecycle_event": "test",
+    "npm_package_devDependencies__testing_library_react": "^10.0.2",
+    "npm_package_version": "0.1.0",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "ubuntu",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\",\"--watchAll\"]}",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "npm_config_strict_ssl": "true",
+    "QT_IM_MODULE": "ibus",
+    "PWD": "/home/jefferson/dev/training/rocketseat/GoStack/entregas/gostack-reactJS-concepts",
+    "npm_execpath": "/home/jefferson/.nvm/versions/node/v12.16.2/lib/node_modules/yarn/bin/yarn.js",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "CLUTTER_IM_MODULE": "ibus",
+    "NVM_CD_FLAGS": "-q",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "VTE_VERSION": "6003",
+    "INIT_CWD": "/home/jefferson/dev/training/rocketseat/GoStack/entregas/gostack-reactJS-concepts",
+    "npm_package_dependencies_react": "^16.13.1",
+    "BABEL_ENV": "test",
+    "NODE_ENV": "test",
+    "PUBLIC_URL": "",
+    "NODE_PATH": "",
+    "JEST_WORKER_ID": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 62992,
+      "hard": 62992
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
